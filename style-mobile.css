@@ -1,0 +1,125 @@
+/* CSS file */
+/* mobile styles */
+
+@media only screen and (max-width: 600px) {
+	
+	body { 
+		line-height: 1.9;
+		font-size: 16px; 
+	  }
+	
+	div.left, div.right { width: 100%; }
+	
+	/* style nagłówka */
+	
+	header { height: 600px; }	/* na wypadek zepsucia skryptu scrollManager */
+		
+		header h1 { margin: 40px auto 24px; font-size: 36px; }
+		
+		header #two_buttons { width: 100%; margin: 45px auto 0; }
+			header #two_buttons .button { margin-bottom: 10px; }
+		
+		header .phone { display: none; }
+	
+		/* pasek nawigacji w górnej części */
+		#header_menu nav { width: 90%; }
+		
+			#header_menu nav #nav_logo { width: 25%; max-width: 98px; }
+			
+			#nav_menu li { margin: 0 5px; }
+	
+	/* koniec nagłówka */
+	
+	#waves { display: none; }
+	  
+	section { width: 90%; padding-left: 10px; padding-right: 10px; }
+	
+	/* sekcja 1 */
+	
+	#about { padding: 80px 0 80px; }
+	
+		#about .phone { display: none; }
+	
+		#clouds { 
+			width: 100%; height: auto;
+			margin-right: 0;
+		  }
+			
+			.cloud { 
+				width: 80% !important; 
+				margin: 40px auto;
+				float: none; clear: both; 
+				position: relative !important; 
+				top: 0 !important; left: 0 !important; 
+				bottom: 0 !important; right: 0 !important; 
+			  }
+				.cloud span { font-size: 16px; }
+	
+	/* koniec sekcji 1 */
+	/* sekcja 2 */
+	
+		#specs { width: 100%; margin-top: 20px; }
+		
+				#specs li:hover ol { height: 150px; }
+	
+	/* koniec sekcji 2 */
+	/* sekcja 3 */
+	
+		#versions #codetable { width: 100%; }
+	
+	/* koniec sekcji 3 */
+	/* sekcja 4 */
+	
+		#downloads .phone { display: block; margin: 30px auto 40px; }
+		
+		#downloads div.right { margin-left: 0; }
+		
+		#downloads #get_today { width: 100%; left: 0; }
+		
+	/* koniec sekcji 4 */
+	/* sekcja 5 */
+	
+	#info { padding: 100px 0 85px; }
+	
+		#info nav { width: 100%; }
+			#info nav div { width: 40%; margin: 20px 0; }
+			#info nav div:nth-child(2n+1) { clear: both; margin-left: 10%; }
+	
+		#info h2 { margin: 50px auto 30px; }
+		
+		#info #formbox { margin-top: 50px; }
+		
+			#info form input {
+				padding: 15px;
+				color: #000;
+				border: none;
+				font-family: "Work Sans"; font-weight: bold;
+			  }
+		
+			#info #form_email {
+				width: 90%; 
+			  }
+		
+			#info #form_submit { 
+				width: 160px;
+				margin-left: 0; 
+			  }
+		
+	/* koniec sekcji 5 */
+	
+	/* stopka */
+	
+	footer { 
+		width: 90%; 
+		padding: 35px 5%; 
+		text-align: center;
+	  }
+	
+		footer #copyright { float: none; }
+		
+		footer #socials { float: none; margin-top: 15px; }
+			footer #socials img { margin-left: 8%; }
+		
+	/* koniec stopki */
+  }
+  
